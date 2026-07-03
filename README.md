@@ -1,5 +1,5 @@
 # Python_for_data_analysis
-This is my repository for all my python work
+
 **Project 1: Analyzing Amazon Sales Data**
 **Overview**
 A merchant selling goods on Amazon wants a small analysis to be done. On the amazon portal, they
