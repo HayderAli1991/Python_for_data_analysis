@@ -4,6 +4,8 @@
 
 **Overview**
 
+**Task**
+
 A merchant selling goods on Amazon wants a small analysis to be done. On the amazon portal, they
 export their sales data called sales_data.xlsx.
 
@@ -14,3 +16,12 @@ export their sales data called sales_data.xlsx.
 - Average Amount by Category and Status
 - Total Sales by Fulfilment and Shipment Type
 They would like the last two tables exported to send to their investors.
+
+**Task Completed**
+
+- Performed Data Exploration
+- Data cleaning (Removed null values)
+- Data Filteration (applied multiple consitions)
+- Data Aggregation (Performed groupby operation to get the desired output)
+- Tools used (Anaconda, Spyder, Excel )
+- Code file Name - Amazon Sales Project.py
