@@ -11,10 +11,14 @@ and customers.xlsx.
 
 They have requested the following as they are worried about too many customers buying on credit
 
-1.Join all three datasets and do some light cleaning
+1.Join all three datasets and do some light cleaning.
 2.They would like to see the range of payment amounts by payment type like credit card, debit card
 etc. They want to know if customers paying with credit card, have a higher payment value.
 3.They would like to see the payment value by payment type for every month year
 4.They would also like to see the total payment value by month
 
 **Task Completed**
+1. Handled missing data (fill and drop operation performed).
+2. Removed duplicate data.
+3. Filter and merged the data.
+4. Performed data visualization (Created plots in Matplotlib and seaborn).
