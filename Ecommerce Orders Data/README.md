@@ -1,4 +1,5 @@
 ***Project 2: Analyzing Ecommerce Orders Data***
+
 Our client is called Olist, a Brazilian e-commerce store. They would like an analysis on the orders bought
 by their customers. Olist has three datasets related to the e-commerce store:
 
@@ -7,6 +8,7 @@ order_payment.xlsx,
 and customers.xlsx.
 
 **Task**
+
 They have requested the following as they are worried about too many customers buying on credit
 
 1.Join all three datasets and do some light cleaning
