@@ -1,4 +1,4 @@
-I have successfully completed **data analysis** across **five distinct projects**. 
+I have successfully completed **data analysis** across **two distinct projects**. 
 In each of these projects, I applied a standardized, end-to-end data workflow to turn complex datasets into actionable insights.
 
 **Across all five projects, the core tasks performed include:**
