@@ -20,7 +20,7 @@ etc. They want to know if customers paying with credit card, have a higher payme
 
 4.They would also like to see the total payment value by month.
 
-**Task Completed**
+**Task Performed**
 1. Handled missing data (fill and drop operation performed).
 2. Removed duplicate data.
 3. Filter and merged the data.
