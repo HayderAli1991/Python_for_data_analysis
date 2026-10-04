@@ -1,84 +1,141 @@
-***Project 3: Analyzing Pizza Sales***
+🍕 Pizza Sales Analysis — Python Data Analytics Project
 
-Our client is a Pizza takeout. They had a part time data analyst who cleaned the data. Unfortunately, the analyst is leaving and has supplied you with a list of tasks you need to do it order to clean the data.The data is below.
+A complete data analysis project using Python, Pandas, Matplotlib, Seaborn & Plotly to extract business insights from real pizza sales data.
+This project analyzes revenue, orders, ingredients, pizza categories, seasonal trends, and identifies best/least-selling pizzas.
 
-pizza_sales.xlsx
+🚀 Project Overview
 
-pizza_size.csv
+This project performs end-to-end data analysis on pizza sales to help businesses understand:
 
-pizza_category.csv
+Total revenue, orders & pizzas sold
 
-**You must do the following**
+Daily, hourly, monthly sales trends
 
-1. Import the files and describe the data
+Best & worst performing pizzas
 
-2. Do row filtering to only include unit prices greater than 35
+Sales contribution by category & size
 
-3. Create a discount column which is calculated at 10% of the price
+Average Order Value & customer behavior
 
-4. Drop a row with index label 13341 as the pizza id is incorrect.
+Ingredient demand analysis
 
-5. Drop multiple rows by index labels with id 2614 and 2813 as dates are null
+All analysis is done using a Jupyter Notebook.
 
-6. Drop unit price
+📂 Dataset Information
 
-7. drop order_time, pizza_id
+File: pizza_sales.csv
 
-8. Combine the size and category data
+Includes:
 
-**You must do the following (continued)**
+Order details
 
-1. Add the other data which was inputted manually when the system was down. It is sitting in an excel
-sheet called another_pizza_sales
+Pizza categories & sizes
 
-2. Add the pizza sales voucher data
+Quantities
 
-3. Create pizza full name column which is pizza name and ingredients
+Revenue
 
-4. Add one row of data at the end which was forgotten
+Ingredients
 
-5. Add one row of data at the beginning which was forgotten
+Timestamp data
 
-6. Change text to title case for ingredients and replce feta cheese with mozzarella
+📊 Key KPIs
 
-7. Create a box plot showing total price by ctaegory
+Total Revenue
 
-8. Export the final table and box plot
+Total Pizzas Sold
+
+Total Orders
+
+Average Order Value (AOV)
+
+Average Pizzas per Order
+
+📈 Visualizations Included
+✔ Daily Trends
+
+Orders
+
+Revenue
+
+Quantity
+
+✔ Hourly Trends
+
+Orders by hour
+
+Quantity by hour
+
+✔ Monthly Trends
+
+Orders trend line
+
+✔ Category & Size Analysis
+
+Pie chart: % revenue by category
+
+Heatmap: revenue % by size & category
+
+Bar chart: pizzas sold by category
+
+✔ Top 5 & Bottom 5
+
+By quantity
+
+By total orders
+
+By revenue
+
+✔ Ingredient Frequency Analysis
+🛠️ Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Plotly
+
+Jupyter Notebook
+
+📁 Repository Structure
+pizza-sales-analysis/                                                                                                                                                                                               
+│                                                                                                                                                                                                                   
+├── pizza_sales.ipynb                                                                                                                                                                                               
+├── pizza_sales.py                                                                                                                                                                                                  
+├── pizza_sales.csv                                                                                                                                                                                                 
+├── README.md                                                                                                                                                                                                       
+└── Business Requirements Document.docx
+
+▶️ How to Run the Project
+
+Clone the repo:
+
+git clone https://github.com/YOUR-USERNAME/pizza-sales-analysis.git
 
 
-**Task Performed**
+Install dependencies:
 
-1. EDA (Exploratory Data Analysis)
-   - Load data
-   - Check shape (rows, columns)
-   - View first/last rows
-   - Check data types
-   - Column names
-   - Summary statistics
-     
-2. Data transformation
-   - Handled Missing Values
-   - Removed Duplicates
-   - Renamed Columns
-   - Removed unnecessary columns
-   - Performed Filtering (Basic and multiple condition)
-   - Replaced null values
-   - Deleted unwanted rows
-   - Sorted the dataframe
-   - performed groupping
-   - Merging and concatenation
-   - Performed type conversion
-   - Replacing text in dataframe
-   - Trimmed whitespaces
-  
- 3. Data Visualisation
-    - Box Plot  
+pip install pandas matplotlib seaborn plotly
 
 
+Open notebook:
 
+jupyter notebook pizza_sales.ipynb
 
+📝 Insights Summary
 
+Large-sized pizzas generate the highest revenue.
 
+Classic category sells the most overall.
 
+Evening hours show peak order volume.
 
+Several pizzas consistently underperform and may require menu redesign.
 
+Ingredient frequency points to popular toppings such as cheese and tomato.
